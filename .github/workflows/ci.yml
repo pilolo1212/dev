@@ -14,8 +14,11 @@ jobs:
           node-version: 20
 
       - name: Install
-        run: npm install
+        run: npm install axios
 
+      - name: Install
+        run: npm install
+      
       - name: Syntax Check
         # This checks if the file is valid JavaScript without actually running the server
         run: npm start
