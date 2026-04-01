@@ -19,3 +19,7 @@ jobs:
       - name: Syntax Check
         # This checks if the file is valid JavaScript without actually running the server
         run: docker run -d -p 3000:3000 --name sali0 sali
+
+      - name: Syntax Check
+        # This checks if the file is valid JavaScript without actually running the server
+        run: cutl http://localhost:3000
