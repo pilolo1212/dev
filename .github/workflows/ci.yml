@@ -18,4 +18,4 @@ jobs:
 
       - name: Syntax Check
         # This checks if the file is valid JavaScript without actually running the server
-        run: node --check app.js
+        run: npm start
