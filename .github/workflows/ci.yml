@@ -45,5 +45,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/pilolo1212/task-manager-api:latest
-            ghcr.io/pilolo1212/task-manager-api:prod
+            ghcr.io/pilolo121/task-manager-api:latest
+            ghcr.io/pilolo121/task-manager-api:prod
