@@ -14,14 +14,8 @@ jobs:
           node-version: 20
 
       - name: Install
-        run: npm install axios
-
-      - name: Install
-        run: npm install check-disk-space
-
-      - name: Install
-        run: npm install
+        run: docker build -t sali .
       
       - name: Syntax Check
         # This checks if the file is valid JavaScript without actually running the server
-        run: npm start
+        run: docker run -d -p 3000:3000 --name taskapi task-manager-api
