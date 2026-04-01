@@ -30,7 +30,7 @@ jobs:
         run: npm install
         
       - name: Run tests
-        run: npm start
+        run: npm start -d
         
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
