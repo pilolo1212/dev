@@ -22,4 +22,4 @@ jobs:
 
       - name: Syntax Check
         # This checks if the file is valid JavaScript without actually running the server
-        run: cutl http://localhost:3000
+        run: curl http://localhost:3000
