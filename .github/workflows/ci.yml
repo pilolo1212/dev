@@ -17,6 +17,9 @@ jobs:
         run: npm install axios
 
       - name: Install
+        run: npm install check-disk-space
+
+      - name: Install
         run: npm install
       
       - name: Syntax Check

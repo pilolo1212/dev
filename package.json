@@ -1,11 +1,9 @@
 {
-  "name": "node-speed-test",
+  "name": "system-monitor",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.6.0",
+    "check-disk-space": "^3.4.0"
   }
 }
